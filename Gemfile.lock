@@ -67,7 +67,7 @@ GEM
       mime-types (~> 1.16)
       treetop (~> 1.4.8)
     mime-types (1.25.1)
-    mini_portile (0.5.2)
+    mini_portile2 (2.3.0)
     mongoid (3.1.5)
       activemodel (~> 3.2)
       moped (~> 1.4)
@@ -75,8 +75,8 @@ GEM
       tzinfo (~> 0.3.29)
     moped (1.5.1)
     multi_json (1.8.2)
-    nokogiri (1.6.0)
-      mini_portile (~> 0.5.0)
+    nokogiri (1.8.5)
+      mini_portile2 (~> 2.3.0)
     oauth (0.4.7)
     origin (1.1.0)
     polyglot (0.3.3)
@@ -152,7 +152,7 @@ DEPENDENCIES
   kaminari
   lazy_high_charts
   mongoid (~> 3.1.0)
-  nokogiri
+  nokogiri (>= 1.8.5)
   oauth
   rails (= 3.2.13)
   rubyzip (~> 0.9.9)
@@ -161,3 +161,6 @@ DEPENDENCIES
   stanford-core-nlp
   treat
   uglifier (>= 1.0.3)
+
+BUNDLED WITH
+   1.16.6
