@@ -27,7 +27,7 @@ gem 'engtagger'
 gem 'scalpel'
 gem 'stanford-core-nlp'
 gem 'treat'
-gem 'nokogiri'
+gem 'nokogiri', '>= 1.8.5'
 
 # Use lazy-high-charts for graphing/charts
 gem 'lazy_high_charts'
